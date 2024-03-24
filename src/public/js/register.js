@@ -42,7 +42,5 @@ form.addEventListener('submit', e => {
         });
     }).catch(error => {
         console.error('Ha surgido un error: ', error);
-        // Manejar errores de solicitud
-        // Aquí puedes mostrar un Sweet Alert con un mensaje de error si lo deseas
     });
 });
